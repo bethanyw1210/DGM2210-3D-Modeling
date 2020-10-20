@@ -1,0 +1,28 @@
+<xsheet version="4.0">
+<settings>
+	<fps>24</fps>
+	<step>2</step>
+	<numbering>sequential</numbering>
+	<color>0</color>
+	<format>png</format>
+	<path>C:\Users\betha\OneDrive\Documents</path>
+</settings>
+<audio>
+</audio>
+<layers cols="1">
+	<layer col="1" caption="Layer 1" dir="D:\Art\2020\UVU Fall 2020\DGM2620\Water Drop\" color="0" visible="1">
+		<cel col="1" row="1" duration="1">Water Drop 1.png</cel>
+		<cel col="1" row="2" duration="1">Water Drop 2.png</cel>
+		<cel col="1" row="3" duration="2">Water Drop 3.png</cel>
+		<cel col="1" row="5" duration="2">Water Drop 4.png</cel>
+		<cel col="1" row="7" duration="3">Water Drop 5.png</cel>
+		<cel col="1" row="10" duration="2">Water Drop 6.png</cel>
+		<cel col="1" row="12" duration="2">Water Drop 7.png</cel>
+		<cel col="1" row="14" duration="2">Water Drop 8.png</cel>
+		<cel col="1" row="16" duration="2">Water Drop 9.png</cel>
+		<cel col="1" row="18" duration="1">Water Drop 10.png</cel>
+		<cel col="1" row="19" duration="1">Water Drop 11.png</cel>
+		<cel col="1" row="20" duration="1">Water Drop 12.png</cel>
+	</layer>
+</layers>
+</xsheet>
