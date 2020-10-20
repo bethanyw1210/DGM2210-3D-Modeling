@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc650025e10ee464a9df3a0ca3447722, type: 3}
-  m_Name: sprintSpeed
+  m_Script: {fileID: 11500000, guid: c8530583478cd654c858806aab0d92a1, type: 3}
+  m_Name: FlightAmount
   m_EditorClassIdentifier: 
-  value: 16
+  value: 4
