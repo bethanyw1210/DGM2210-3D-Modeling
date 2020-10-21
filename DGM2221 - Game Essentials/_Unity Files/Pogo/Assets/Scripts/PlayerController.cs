@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && flyCount < flightAmount.value)
         {
             yVar = flyHeight;
-            flyHeight++;
+            flyCount++;
         }
         movement = transform.TransformDirection(movement);
         controller.Move((movement) * Time.deltaTime);
