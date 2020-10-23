@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ff3852c-a6bc-4433-bc22-1507b15c8405" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/Behaviors/LookAtBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/Behaviors/LookAtBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/CharacterWithStates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/CharacterWithStates.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +40,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShootWeapon.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +98,7 @@
       <workItem from="1603237219917" duration="1690000" />
       <workItem from="1603244621185" duration="47000" />
       <workItem from="1603402926855" duration="652000" />
+      <workItem from="1603426826313" duration="1995000" />
     </task>
     <servers />
   </component>

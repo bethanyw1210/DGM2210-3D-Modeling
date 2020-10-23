@@ -41,7 +41,7 @@ public class CharacterWithStates : MonoBehaviour
                 break;
         }
 
-        var newMovement = moveSpeed * Time.deltaTime;
+        var newMovement = movement * Time.deltaTime;
         controller.Move(newMovement);
     }
 }

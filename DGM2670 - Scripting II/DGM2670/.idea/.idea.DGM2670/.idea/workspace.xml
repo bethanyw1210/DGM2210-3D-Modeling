@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea0c116-fe3c-44dc-9490-f163ca5037f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DGM2210 - 3D Modeling and Animation/3D Animations.ma" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2210 - 3D Modeling and Animation/3D Animations.ma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MouseLocationBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPointBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
@@ -86,7 +89,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMouseLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PointFromMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterBehaviourWithKnockBack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterBehaviourMoveHV.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
@@ -94,6 +96,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterStateMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterWithStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" />
       </list>
     </option>
   </component>
@@ -167,6 +171,7 @@
       <workItem from="1602705411042" duration="1620000" />
       <workItem from="1603134110595" duration="4193000" />
       <workItem from="1603305929653" duration="4445000" />
+      <workItem from="1603425970678" duration="1436000" />
     </task>
     <servers />
   </component>
