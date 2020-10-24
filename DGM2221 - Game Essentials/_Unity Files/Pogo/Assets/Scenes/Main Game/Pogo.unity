@@ -452,6 +452,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &48668200
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +557,7 @@ GameObject:
   m_Layer: 0
   m_Name: WeaponSpawn
   m_TagString: Untagged
-  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -572,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b008e0e5e2b529409a208a4093ffd8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8321178260284480392, guid: a627995fb93da2349ba6956e177b0377, type: 3}
+  prefab: {fileID: 5941773479154434307, guid: a627995fb93da2349ba6956e177b0377, type: 3}
   rotationDirection: {fileID: 11400000, guid: db4182de184f6ee4aa9c21b61fdb06a0, type: 2}
 --- !u!4 &68023927
 Transform:
@@ -742,6 +743,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &132970285
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,6 +989,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &177671460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1301,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &330664594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2074,7 +2078,7 @@ Transform:
   m_GameObject: {fileID: 586981304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.75, z: 0}
-  m_LocalScale: {x: 1, y: 0.05, z: 1}
+  m_LocalScale: {x: 0.65, y: 0.05, z: 0.65}
   m_Children:
   - {fileID: 68023927}
   m_Father: {fileID: 2056128561}
@@ -2252,6 +2256,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &609541394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,6 +2411,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &637426639
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,6 +2566,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &742084945
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,6 +3301,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &969153930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3448,6 +3456,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &1008958076
 GameObject:
   m_ObjectHideFlags: 0
@@ -3864,6 +3873,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &1117063283
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,6 +4119,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &1202944320
 GameObject:
   m_ObjectHideFlags: 0
@@ -4858,6 +4869,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &1393708251
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,6 +6124,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &1820962959
 GameObject:
   m_ObjectHideFlags: 0
@@ -6501,6 +6514,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &1945361992
 GameObject:
   m_ObjectHideFlags: 0
@@ -6830,6 +6844,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  weapon: {fileID: 586981307}
 --- !u!1 &2135515307
 GameObject:
   m_ObjectHideFlags: 0
