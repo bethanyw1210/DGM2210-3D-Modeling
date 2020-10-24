@@ -57,11 +57,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ApplyForce.cs" />
+    <Compile Include="Assets\Scripts\BoomerangVelocity.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\FloatData.cs" />
-    <Compile Include="Assets\Scripts\IntData.cs" />
+    <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
+    <Compile Include="Assets\Scripts\LookAtBehaviour.cs" />
+    <Compile Include="Assets\Scripts\MouseEventsBehaviour.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\ShootWeapon.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\FloatData.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\IntData.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

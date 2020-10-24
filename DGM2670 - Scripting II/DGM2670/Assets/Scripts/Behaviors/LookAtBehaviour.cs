@@ -2,7 +2,6 @@
 
 public class LookAtBehaviour : MonoBehaviour
 {
-
     public void OnLook(Vector3Data obj)
     {
         transform.LookAt(obj.value); 

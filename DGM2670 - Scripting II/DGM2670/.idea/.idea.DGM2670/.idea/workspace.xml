@@ -21,9 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2ea0c116-fe3c-44dc-9490-f163ca5037f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/.idea/.idea.Pogo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scenes/ShootWeapon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scenes/ShootWeapon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scripts/FloatData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scripts/FloatData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scripts/IntData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scripts/IntData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scripts/ShootWeapon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/Assets/Scripts/ShootWeapon.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/Pogo/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +103,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterStateMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterWithStates.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -172,6 +179,7 @@
       <workItem from="1603134110595" duration="4193000" />
       <workItem from="1603305929653" duration="4445000" />
       <workItem from="1603425970678" duration="1436000" />
+      <workItem from="1603502082713" duration="5990000" />
     </task>
     <servers />
   </component>
