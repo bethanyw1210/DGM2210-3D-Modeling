@@ -20,4 +20,9 @@ public class Vector3Data : ScriptableObject
     {
         value = obj.eulerAngles;
     }
+
+    public void SetPositionFromValue(Transform obj)
+    {
+        obj.position = value;
+    }
 }
