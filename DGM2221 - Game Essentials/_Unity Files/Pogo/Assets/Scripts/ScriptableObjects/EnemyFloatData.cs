@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 [CreateAssetMenu]
 
-public class FloatData : ScriptableObject
+public class EnemyFloatData : ScriptableObject
 {
     public float value;
 
@@ -30,7 +29,6 @@ public class FloatData : ScriptableObject
         if (value <= 0)
         {
             value = 0;
-            img.fillAmount = .75f;
         }
 
         if (value >= 1)

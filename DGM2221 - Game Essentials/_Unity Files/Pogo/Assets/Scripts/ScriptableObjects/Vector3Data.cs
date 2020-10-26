@@ -25,4 +25,9 @@ public class Vector3Data : ScriptableObject
     {
         obj.position = value;
     }
+
+    public void SetValueFromPosition(Transform obj)
+    {
+        value = obj.position;
+    }
 }

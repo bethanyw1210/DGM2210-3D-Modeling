@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc650025e10ee464a9df3a0ca3447722, type: 3}
-  m_Name: PlayerHealth
+  m_Script: {fileID: 11500000, guid: dce40cbf88ae7354b9b4d3d09c3c5f11, type: 3}
+  m_Name: DeathPosition
   m_EditorClassIdentifier: 
-  value: 0.39999992
+  value: {x: -65, y: 2, z: 0}

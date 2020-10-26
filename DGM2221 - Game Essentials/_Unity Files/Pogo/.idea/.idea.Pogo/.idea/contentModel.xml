@@ -14,9 +14,12 @@
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="MouseEventsBehaviour.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerDeath.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
+            <e p="EnemyFloatData.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="TriggerEventsBehaviour.cs" t="Include" />
