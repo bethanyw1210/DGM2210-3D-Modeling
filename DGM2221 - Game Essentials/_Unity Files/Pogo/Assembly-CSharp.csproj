@@ -59,10 +59,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\BoomerangVelocity.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
     <Compile Include="Assets\Scripts\LookAtBehaviour.cs" />
     <Compile Include="Assets\Scripts\MouseEventsBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ObjFollowPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\EnemyFloatData.cs" />

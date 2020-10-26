@@ -9,10 +9,10 @@
         <e p="Scripts" t="Include">
           <e p="ApplyForce.cs" t="Include" />
           <e p="BoomerangVelocity.cs" t="Include" />
-          <e p="CameraFollow.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="MouseEventsBehaviour.cs" t="Include" />
+          <e p="ObjFollowPlayer.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">

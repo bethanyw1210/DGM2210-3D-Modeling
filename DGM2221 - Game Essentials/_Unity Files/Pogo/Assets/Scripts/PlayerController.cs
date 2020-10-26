@@ -38,8 +38,8 @@ public class PlayerController : MonoBehaviour
     
     private void OnHorizontal()
     {
-        hInput = Input.GetAxis("Vertical")*Time.deltaTime*rotateSpeed;
-        transform.Rotate(0,-hInput,0);
+        hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
+        transform.Rotate(0,hInput,0);
     }
     
     private void OnVertical()
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
             moveSpeed = normalSpeed;
         }
         
-        vInput = Input.GetAxis("Horizontal")*moveSpeed.value;
+        vInput = Input.GetAxis("Vertical")*moveSpeed.value;
         movement.Set(vInput,yVar,hInput);
 
         yVar += gravity*Time.deltaTime;
