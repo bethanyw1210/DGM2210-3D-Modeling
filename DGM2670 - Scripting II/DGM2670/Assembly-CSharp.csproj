@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Behaviors\AIBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\AiPatrolBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\ApplyForce.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\AttachOnTrigger.cs" />
     <Compile Include="Assets\Scripts\Behaviors\CharacterBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\CharacterBehaviourMoveHV.cs" />
     <Compile Include="Assets\Scripts\Behaviors\CharacterBehaviourWithKnockBack.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Debugger.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\FloatData.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\GameAction.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\IntData.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\PointFromMouse.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\StringListData.cs" />

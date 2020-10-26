@@ -11,6 +11,7 @@
             <e p="AIBehaviour.cs" t="Include" />
             <e p="AiPatrolBehaviour.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
+            <e p="AttachOnTrigger.cs" t="Include" />
             <e p="CharacterBehaviour.cs" t="Include" />
             <e p="CharacterBehaviourMoveHV.cs" t="Include" />
             <e p="CharacterBehaviourWithKnockBack.cs" t="Include" />
@@ -36,6 +37,7 @@
           <e p="ScriptableObjects" t="Include">
             <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="GameAction.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
             <e p="StringListData.cs" t="Include" />
