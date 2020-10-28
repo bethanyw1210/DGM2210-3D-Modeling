@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ff3852c-a6bc-4433-bc22-1507b15c8405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../DGM2210 - 3D Modeling and Animation/3D Animations.ma" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2210 - 3D Modeling and Animation/3D Animations.ma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Materials/ForestBG.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Materials/ForestBG.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Pogo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Pogo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Anims/Platform1Movement.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Anims/Platform1Movement.anim.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +64,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BoomerangVelocity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/EnemyFloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjFollowPalyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +125,7 @@
       <workItem from="1603666253166" duration="4987000" />
       <workItem from="1603685719206" duration="1133000" />
       <workItem from="1603749890629" duration="893000" />
+      <workItem from="1603853326188" duration="1108000" />
     </task>
     <servers />
   </component>
