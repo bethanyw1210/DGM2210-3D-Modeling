@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\Behaviors\CharacterBehaviourWithKnockBack.cs" />
     <Compile Include="Assets\Scripts\Behaviors\CharacterMouseLookAt.cs" />
     <Compile Include="Assets\Scripts\Behaviors\Coroutines.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\GameActionHandler.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\InstanceGameObjectPrefab.cs" />
     <Compile Include="Assets\Scripts\Behaviors\InstancerBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\LookAtBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\MonoEventsBehaviour.cs" />

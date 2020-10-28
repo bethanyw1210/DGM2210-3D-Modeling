@@ -8,12 +8,21 @@ using UnityEngine;
 public class ApplyForce : MonoBehaviour
 {
     private Rigidbody rBody;
-    public float force = 300f;
+    public Vector3 forces;
+    public bool canRunOnstart;
 
     private void Start()
     {
         rBody = GetComponent<Rigidbody>();
-        var forceDirection = new Vector3(force,0,0);
-        rBody.AddRelativeForce(forceDirection);
+
+        if (canRunOnstart)
+        {
+            OnApplyForce();
+        }
+    }
+
+    public void OnApplyForce()
+    {
+        rBody.AddRelativeForce(forces);
     }
 }

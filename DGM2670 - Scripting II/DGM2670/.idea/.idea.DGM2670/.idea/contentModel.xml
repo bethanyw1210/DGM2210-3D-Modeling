@@ -17,6 +17,8 @@
             <e p="CharacterBehaviourWithKnockBack.cs" t="Include" />
             <e p="CharacterMouseLookAt.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
+            <e p="GameActionHandler.cs" t="Include" />
+            <e p="InstanceGameObjectPrefab.cs" t="Include" />
             <e p="InstancerBehaviour.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
