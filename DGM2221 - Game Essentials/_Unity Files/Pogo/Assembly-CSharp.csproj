@@ -71,6 +71,12 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\MonoEventsBehaviour.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

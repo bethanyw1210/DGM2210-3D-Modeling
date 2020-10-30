@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ff3852c-a6bc-4433-bc22-1507b15c8405" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pogo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Materials/ForestBG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Materials/ForestBG.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Pogo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Pogo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/MainLevel/Tree.ma" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/Maya/MainLevel/Tree.ma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TransBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TransBlack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Anims/Platform1Movement.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Anims/Platform1Movement.anim.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjFollowPalyer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.4.0/Runtime/Unity.ProBuilder.asmdef" />
       </list>
     </option>
   </component>
@@ -126,6 +125,8 @@
       <workItem from="1603685719206" duration="1133000" />
       <workItem from="1603749890629" duration="893000" />
       <workItem from="1603853326188" duration="1108000" />
+      <workItem from="1604036608862" duration="10000" />
+      <workItem from="1604036679239" duration="207000" />
     </task>
     <servers />
   </component>
@@ -162,5 +163,9 @@
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
     <state x="-1495" y="187" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1603750782642" />
+    <state x="491" y="325" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604036703814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="325" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1604036703814" />
   </component>
 </project>
