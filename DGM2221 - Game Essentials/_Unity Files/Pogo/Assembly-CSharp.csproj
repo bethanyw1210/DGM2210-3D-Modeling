@@ -71,11 +71,23 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\MonoEventsBehaviour.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Monetization">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -85,6 +97,12 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/Pogo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
