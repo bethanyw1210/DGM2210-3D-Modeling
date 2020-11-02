@@ -57,6 +57,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AnimationBehaviour.cs" />
+    <Compile Include="Assets\Scripts\AnimStates.cs" />
     <Compile Include="Assets\Scripts\Behaviors\AIBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\AiPatrolBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\ApplyForce.cs" />
