@@ -64,44 +64,46 @@
      <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\LoadLevels.cs" />
+     <Compile Include="Assets\Scripts\LoadLevel.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>D:/Art/2020/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

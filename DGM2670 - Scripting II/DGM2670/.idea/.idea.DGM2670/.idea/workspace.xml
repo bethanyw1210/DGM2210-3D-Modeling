@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ea0c116-fe3c-44dc-9490-f163ca5037f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-    </list>
+    <list default="true" id="2ea0c116-fe3c-44dc-9490-f163ca5037f9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/NAvAgentBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpPowerup.cs" />
@@ -99,7 +96,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMouseLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AttachOnTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/InstanceGameObjectPrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/ApplyForce.cs" />
@@ -109,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterBrain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMoveStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/NAvAgentBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +188,7 @@
       <workItem from="1603911177379" duration="4175000" />
       <workItem from="1604347160891" duration="3534000" />
       <workItem from="1604519317589" duration="3952000" />
+      <workItem from="1604951198124" duration="4269000" />
     </task>
     <servers />
   </component>

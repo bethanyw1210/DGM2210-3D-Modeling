@@ -26,6 +26,7 @@
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
+            <e p="NAvAgentBehaviour.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>

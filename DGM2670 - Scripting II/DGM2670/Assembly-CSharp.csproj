@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Behaviors\LookAtBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\MonoEventsBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\MouseEventsBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\NAvAgentBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TriggerEventBehaviour.cs" />
     <Compile Include="Assets\Scripts\CharacterBrain.cs" />
