@@ -20,24 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TransBlack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TransBlack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/BirdCage.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/BirdCage.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Button.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Button.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Key.ma" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/Maya/Key.ma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/PressurePlate.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/PressurePlate.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Rotating Bridge.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Rotating Bridge.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Switch.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Switch.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Treasure Chest .ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Treasure Chest .ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tree Background.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tree Background.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tube.ma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tube.ma.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building2.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building3.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/ScriptableObjects/GameAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/ScriptableObjects/GameAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +53,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Editor/MenuActions/Geometry/BridgeEdges.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectRotation.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationBool.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +110,7 @@
       <workItem from="1604110345747" duration="1000" />
       <workItem from="1604293471367" duration="1000" />
       <workItem from="1605068790906" duration="1433000" />
+      <workItem from="1605430324970" duration="1454000" />
     </task>
     <servers />
   </component>
