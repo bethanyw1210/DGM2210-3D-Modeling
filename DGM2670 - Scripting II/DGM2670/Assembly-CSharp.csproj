@@ -57,6 +57,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ObjectPickupBehaviour.cs" />
+    <Compile Include="Assets\Scripts\AIBrainBase.cs" />
+    <Compile Include="Assets\Scripts\AIWithBrains.cs" />
     <Compile Include="Assets\Scripts\AnimationBehaviour.cs" />
     <Compile Include="Assets\Scripts\AnimStates.cs" />
     <Compile Include="Assets\Scripts\Behaviors\AIBehaviour.cs" />

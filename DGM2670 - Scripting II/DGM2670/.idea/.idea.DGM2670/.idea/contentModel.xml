@@ -6,7 +6,10 @@
     <e p="C:\Users\betha\OneDrive\Desktop\UVU - Fall 2020\DGM2670 - Scripting II\DGM2670" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ObjectPickupBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="AIBrainBase.cs" t="Include" />
+          <e p="AIWithBrains.cs" t="Include" />
           <e p="AnimationBehaviour.cs" t="Include" />
           <e p="AnimStates.cs" t="Include" />
           <e p="Behaviors" t="Include">
