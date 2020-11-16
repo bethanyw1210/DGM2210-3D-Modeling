@@ -24,25 +24,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/BirdCage.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/BirdCage.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Button.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Button.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Key.ma" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/Maya/Key.ma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/PressurePlate.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/PressurePlate.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Rotating Bridge.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Rotating Bridge.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Switch.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Switch.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Treasure Chest .ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Treasure Chest .ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tree Background.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tree Background.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tube.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Tube.ma.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/BossLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/BossLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/Building2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevelSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevelSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationBool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -111,6 +104,7 @@
       <workItem from="1604293471367" duration="1000" />
       <workItem from="1605068790906" duration="1433000" />
       <workItem from="1605430324970" duration="1454000" />
+      <workItem from="1605569321557" duration="304000" />
     </task>
     <servers />
   </component>

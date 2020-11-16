@@ -15,35 +15,18 @@ public class PlayerController : MonoBehaviour
     private Vector3 movement;
     private float vInput, hInput, yVar, flyCount;
     private FloatData moveSpeed;
-    private bool canMove = true;
     private readonly WaitForFixedUpdate wffu = new WaitForFixedUpdate();
 
     private void Start()
     {
         moveSpeed = normalSpeed;
         controller = GetComponent<CharacterController>();
-        StartCoroutine(Move());
     }
-    
-    private IEnumerator Move()
-    {
-        canMove = true;
-        while (canMove)
-        {
-            OnHorizontal();
-            OnVertical();
-            yield return wffu;
-        }
-    }
-    
-    private void OnHorizontal()
+
+    private void Update()
     {
         hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
         transform.Rotate(0,hInput,0);
-    }
-    
-    private void OnVertical()
-    {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             moveSpeed = sprintSpeed;
