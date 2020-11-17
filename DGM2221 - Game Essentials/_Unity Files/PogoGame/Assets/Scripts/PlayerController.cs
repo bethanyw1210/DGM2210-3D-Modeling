@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
 {
     public FloatData normalSpeed, sprintSpeed;
     public IntData flightAmount;
-    public float rotateSpeed = 300f, gravity = 1f, flyHeight = 15f;
-    
+    public float rotateSpeed = 300f, flyHeight = 15f;
+
+    private float gravity = -9.81f;
     private CharacterController controller;
     private Vector3 movement;
     private float vInput, hInput, yVar, flyCount;
