@@ -22,19 +22,9 @@
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/Maya/Pogo.ma" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/Maya/Pogo.ma" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Bee.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/DrBentley.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FBXMayaExport.mel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FBXMayaExport5.mel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FBXMayaMain.mel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Pogo.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/QueenBee.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/SyncPipe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-dc744c7e7516cc949be97ed8f2d06ab6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f059ef829e3c02b48a6acaafae822a7b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +96,7 @@
       <workItem from="1605569321557" duration="304000" />
       <workItem from="1605589014344" duration="668000" />
       <workItem from="1605736883306" duration="169000" />
+      <workItem from="1605738114862" duration="5817000" />
     </task>
     <servers />
   </component>

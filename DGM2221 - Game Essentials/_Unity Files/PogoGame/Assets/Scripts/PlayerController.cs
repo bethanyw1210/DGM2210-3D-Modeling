@@ -7,16 +7,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public FloatData normalSpeed, sprintSpeed;
     public IntData flightAmount;
-    public float rotateSpeed = 300f, flyHeight = 15f;
+    public float flyCount;
 
-    private float gravity = -9.81f;
+    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -9.81f;
+    private float vInput, hInput, yVar, moveSpeed;
     private CharacterController controller;
     private Vector3 movement;
-    private float vInput, hInput, yVar, flyCount;
-    private FloatData moveSpeed;
-    private readonly WaitForFixedUpdate wffu = new WaitForFixedUpdate();
 
     private void Start()
     {
@@ -26,8 +23,6 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
-        transform.Rotate(0,hInput,0);
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             moveSpeed = sprintSpeed;
@@ -37,9 +32,13 @@ public class PlayerController : MonoBehaviour
         {
             moveSpeed = normalSpeed;
         }
-        
-        vInput = Input.GetAxis("Vertical")*moveSpeed.value;
+
+        hInput = Input.GetAxis("Horizontal") * -moveSpeed;
+        vInput = Input.GetAxis("Vertical") * moveSpeed;
         movement.Set(vInput,yVar,hInput);
+        
+        Vector3 newPosition = new Vector3(-hInput, 0.0f, vInput);
+        transform.rotation = Quaternion.LookRotation(newPosition);
 
         yVar += gravity*Time.deltaTime;
 
@@ -54,7 +53,7 @@ public class PlayerController : MonoBehaviour
             yVar = flyHeight;
             flyCount++;
         }
-        movement = transform.TransformDirection(movement);
+        
         controller.Move((movement) * Time.deltaTime);
     }
 }
