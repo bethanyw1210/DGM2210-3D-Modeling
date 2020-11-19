@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.45099336, g: 0.50085336, b: 0.5743355, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: a1f8abf15cb37fb4799a44ddf44ce7fd, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: be0c388fcca54ba4c8bcc28993af5089, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 5fe62008626946d45b52aa3996c1d209, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -6282,7 +6282,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358806356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -47107,11 +47107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 411472a43574a824f90c62c24523d0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalSpeed: {fileID: 11400000, guid: 8be9bb7cefd285946ae7bf51061b622e, type: 2}
-  sprintSpeed: {fileID: 11400000, guid: 7f2e0ce178ad273428314e78e3abb9fd, type: 2}
   flightAmount: {fileID: 11400000, guid: 37bf9694e5dcae647b9ca25917683be5, type: 2}
-  rotateSpeed: 250
-  flyHeight: 8
+  flyCount: 0
 --- !u!143 &1376855507
 CharacterController:
   m_ObjectHideFlags: 0
@@ -76197,7 +76194,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh43160
+  m_Name: pb_Mesh24794
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
