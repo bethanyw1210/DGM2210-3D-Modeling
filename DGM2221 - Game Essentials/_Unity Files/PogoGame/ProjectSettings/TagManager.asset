@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Weapon
   - 
   - Environment
   - 
@@ -22,7 +22,7 @@ TagManager:
   - LostBird
   - Cage
   - 
-  - 
+  - Enemy
   - 
   - 
   - 
