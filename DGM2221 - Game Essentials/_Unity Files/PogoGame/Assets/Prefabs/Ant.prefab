@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4642656146367343778}
   - component: {fileID: 1948686757734375260}
   - component: {fileID: 4563046033531480651}
-  - component: {fileID: 6781678066411928183}
   - component: {fileID: 5149902592957298466}
-  m_Layer: 0
+  - component: {fileID: 8811210964337842799}
+  m_Layer: 17
   m_Name: Ant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,19 +150,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   weapon: {fileID: 0}
---- !u!114 &6781678066411928183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6296229523866588576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed09a51cf0a2d78459d45cb8cda47895, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyObj: {fileID: 6296229523866588576}
 --- !u!65 &5149902592957298466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176,3 +163,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7586362, y: 1.8866742, z: 3.9881778}
   m_Center: {x: 0, y: 0, z: -0.5417955}
+--- !u!114 &8811210964337842799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296229523866588576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c7348ef53ba7245b0f6e25465cb546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d14467a714bcfac4aaaf47d184234cd4, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.08
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: d14467a714bcfac4aaaf47d184234cd4, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: SetImageFillAmount
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  enterDelayTime: 0.01
+  exitDelayTime: 0.01
+  stayDelayTime: 0.01

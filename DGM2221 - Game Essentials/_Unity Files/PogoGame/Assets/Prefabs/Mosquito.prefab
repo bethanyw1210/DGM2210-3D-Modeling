@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8587846324058353388}
   - component: {fileID: 5822537500425039720}
   - component: {fileID: 1748313615105057442}
+  - component: {fileID: 4504270040155348287}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Untagged
@@ -177,3 +178,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8947453, y: 1.9525464, z: 3.220263}
   m_Center: {x: 0, y: 0, z: -0.25846982}
+--- !u!114 &4504270040155348287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269026588188609062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c7348ef53ba7245b0f6e25465cb546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  enterDelayTime: 0.01
+  exitDelayTime: 0.01
+  stayDelayTime: 0.01

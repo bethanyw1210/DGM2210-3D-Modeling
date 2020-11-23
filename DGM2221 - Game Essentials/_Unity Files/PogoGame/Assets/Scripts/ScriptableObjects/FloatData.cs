@@ -30,12 +30,6 @@ public class FloatData : ScriptableObject
         if (value <= 0)
         {
             value = 0;
-            img.fillAmount = .75f;
-        }
-
-        if (value >= 1)
-        {
-            value = 1;
         }
     }
 }
