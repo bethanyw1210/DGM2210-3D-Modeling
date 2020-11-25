@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 1535037425084968409}
   - component: {fileID: 8366971109524375046}
   - component: {fileID: 1621216747787003888}
-  - component: {fileID: 1101722095799952860}
+  - component: {fileID: 4068415064326985445}
   m_Layer: 9
   m_Name: Bullet1
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,39 +142,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canShoot: 1
   rBody: {fileID: 1535037425084968409}
---- !u!114 &1101722095799952860
-MonoBehaviour:
+--- !u!135 &4068415064326985445
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5941773479154434307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2c7348ef53ba7245b0f6e25465cb546, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: f5584dc0825d9704db60803af9d47930, type: 2}
-        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
-        m_MethodName: UpdateValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -0.02
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerStayEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  enterDelayTime: 0.01
-  exitDelayTime: 0.01
-  stayDelayTime: 0.01
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}

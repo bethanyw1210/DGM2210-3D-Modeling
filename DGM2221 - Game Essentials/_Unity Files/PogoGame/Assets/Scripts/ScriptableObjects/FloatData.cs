@@ -27,9 +27,10 @@ public class FloatData : ScriptableObject
             img.fillAmount = value;
         }
 
+        /*
         if (value <= 0)
         {
             value = 0;
-        }
+        }*/
     }
 }
