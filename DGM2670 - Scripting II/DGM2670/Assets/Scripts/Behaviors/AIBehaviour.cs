@@ -19,9 +19,10 @@ public class AIBehaviour : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        canPatrol = true;
     }
 
-    private IEnumerator OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         canHunt = true;
         canPatrol = false;
@@ -30,12 +31,12 @@ public class AIBehaviour : MonoBehaviour
         while (distance <= 1f)
         {
             distance = agent.remainingDistance;
-            yield return wffu;
+            //yield return wffu;
         }
 
-        yield return new WaitForSeconds(2f);
+        //yield return new WaitForSeconds(2f);
 
-        StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
+        //StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
     }
 
     private void OnTriggerExit(Collider other)
@@ -43,7 +44,18 @@ public class AIBehaviour : MonoBehaviour
         canHunt = false;
     }
     
-    private IEnumerator Patrol()
+    public void Patrol()
+    {
+    canPatrol = true;
+    while (canPatrol)
+    {
+        if (agent.pathPending || !(agent.remainingDistance < 0.5f)) continue;
+        agent.destination = patrolPoints[i].position;
+        i = (i + 1) % patrolPoints.Count;
+    }
+    }
+    
+    /*private IEnumerator Patrol()
     {
         canPatrol = true;
         while (canPatrol)
@@ -53,5 +65,5 @@ public class AIBehaviour : MonoBehaviour
             agent.destination = patrolPoints[i].position;
             i = (i + 1) % patrolPoints.Count;
         }
-    }
+    }*/
 }

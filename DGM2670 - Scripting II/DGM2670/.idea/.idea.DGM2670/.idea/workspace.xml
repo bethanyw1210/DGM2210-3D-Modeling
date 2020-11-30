@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ea0c116-fe3c-44dc-9490-f163ca5037f9" name="Default Changelist" comment="" />
+    <list default="true" id="2ea0c116-fe3c-44dc-9490-f163ca5037f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/FloatData/EnemyFloatData/BeetleHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/FloatData/EnemyFloatData/BeetleHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/FloatData/EnemyFloatData/FlyHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/FloatData/EnemyFloatData/FlyHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Prefabs/Beetle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Prefabs/Beetle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Prefabs/Fly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Prefabs/Fly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../DGM2221 - Game Essentials/_Unity Files/PogoGame/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterKnockback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AiPatrolBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterMouseLookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PointFromMouse.cs" />
@@ -109,6 +117,7 @@
         <option value="$PROJECT_DIR$/Assets/ObjectPickupBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBrainBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIWithBrains.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviors/AIBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -192,6 +201,7 @@
       <workItem from="1604519317589" duration="3952000" />
       <workItem from="1604951198124" duration="4269000" />
       <workItem from="1605557731458" duration="3722000" />
+      <workItem from="1606696318543" duration="515000" />
     </task>
     <servers />
   </component>

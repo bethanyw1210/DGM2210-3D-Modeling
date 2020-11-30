@@ -20,202 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Pogo/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/.idea/.idea.Walk_Run/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assembly-CSharp.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/EnemyFloatData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/PlayerHealth.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/PlayerHealth.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/normalSpeed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/normalSpeed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/sprintSpeed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/FloatData/sprintSpeed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/.mayaSwatches/Tree Background.ma.swatches" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Button.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Button.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Key.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Key.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/MainLevel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/MainLevel/Tree.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/MainLevel/Tree.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/MainLevel/TreeSuperLowPoly.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/MainLevel/TreeSuperLowPoly.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/PressurePlate.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/PressurePlate.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Rotating Bridge.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Rotating Bridge.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Switch.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Switch.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Treasure Chest .ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Treasure Chest .ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Tree Background.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Tree Background.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Tube.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/Maya/Tube.ma.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/TempForestBG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/GameArt/TempForestBG.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Gizmos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Gizmos/Cinemachine.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Gizmos/Cinemachine/cm_logo_lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Gizmos/Cinemachine/cm_logo_lg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/IntData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/IntData/FlightAmount.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/IntData/FlightAmount.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/BlueMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/BlueMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/BrightBlue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/BrightBlue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Brown.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Brown.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/BrownTrans.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/BrownTrans.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/ForestBG.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/ForestBG.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Gray.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Gray.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/GreenMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/GreenMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/GreenTransMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/GreenTransMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/TransBlack.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/TransBlack.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/White.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/White.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/WhiteSuperClear.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/WhiteSuperClear.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Materials/Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/Bullet.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/Bullet.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/Main Camera.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/Main Camera.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/Pogo.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/Pogo.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/StartingSpawn.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Prefabs/StartingSpawn.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Levels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Levels/Branch1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Levels/Branch1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Levels/MainLevel.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Pogo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Main Game/Pogo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/ShootWeapon.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/ShootWeapon.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/TriggerVolumes.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/TriggerVolumes.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Walk_Run.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scenes/Walk_Run.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ApplyForce.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ApplyForce.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/BoomerangVelocity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/BoomerangVelocity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/InstanceBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/InstanceBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/LookAtBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/LookAtBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/MouseEventsBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/MouseEventsBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ObjFollowPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ObjFollowPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/PlayerDeath.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/PlayerDeath.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/EnemyFloatData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/EnemyFloatData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/FloatData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/FloatData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/IntData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/IntData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/MonoEventsBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/Vector3Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/ScriptableObjects/Vector3Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/TriggerEventsBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Scripts/TriggerEventsBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Sprites/Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Sprites/Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Sprites/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Sprites/Square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/AimVector.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/AimVector.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/DeathPosition.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/DeathPosition.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/PlayerStartPosition.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/PlayerStartPosition.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/PositionVector.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/PositionVector.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/WeaponSpeed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Assets/Vector3Data/WeaponSpeed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Logs/Packages-Update.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Pogo.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/NetworkManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/ProjectSettings/VFXManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/UserSettings/EditorUserSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/Walk_Run.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pogo/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/BeetleHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/BeetleHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/FlyHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/FlyHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Beetle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Beetle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/Behaviors/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/Behaviors/AIBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,6 +123,7 @@
       <workItem from="1606257325489" duration="5928000" />
       <workItem from="1606263283343" duration="587000" />
       <workItem from="1606418197281" duration="1738000" />
+      <workItem from="1606694800546" duration="2061000" />
     </task>
     <servers />
   </component>
