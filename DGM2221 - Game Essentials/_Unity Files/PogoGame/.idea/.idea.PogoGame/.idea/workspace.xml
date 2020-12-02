@@ -20,20 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/BeetleHealth.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/BeetleHealth.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/FlyHealth.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/FlyHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/PlayerHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/PlayerHealth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Beetle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Beetle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/Behaviors/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Assets/Scripts/Behaviors/AIBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/34b36c78f8d88a654493bc59ff857df8.clust" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/34b36c78f8d88a654493bc59ff857df8.lt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/34b36c78f8d88a654493bc59ff857df8.vis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/87f51ab0f4ede205796fb7094adc58c6.clust" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/87f51ab0f4ede205796fb7094adc58c6.lt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/87f51ab0f4ede205796fb7094adc58c6.vis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/UnityTempFile-aab40d49ca94e524db9255ae573efeee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DGM2670 - Scripting II/DGM2670/Temp/__Backupscenes/0.backup" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +54,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Editor/MenuActions/Geometry/BridgeEdges.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,9 +77,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -124,6 +146,7 @@
       <workItem from="1606263283343" duration="587000" />
       <workItem from="1606418197281" duration="1738000" />
       <workItem from="1606694800546" duration="2061000" />
+      <workItem from="1606701751755" duration="10075000" />
     </task>
     <servers />
   </component>

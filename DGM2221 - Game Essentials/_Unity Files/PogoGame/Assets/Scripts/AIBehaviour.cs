@@ -11,6 +11,7 @@ public class AIBehaviour : MonoBehaviour
     public Transform player;
     public List<Transform> patrolPoints;
     public bool canPatrol = true;
+    public FloatData playerHealth;
     
     private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
     private WaitForSeconds wfs = new WaitForSeconds(2f);
@@ -31,7 +32,7 @@ public class AIBehaviour : MonoBehaviour
         agent.destination = player.position;
         var distance = agent.remainingDistance;
 
-        while (distance <= 1f)
+        while (distance <= 1f && (playerHealth.value > 0))
         {
             distance = agent.remainingDistance;
             yield return wffu;

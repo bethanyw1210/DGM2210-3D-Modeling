@@ -1,29 +1,35 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
 public class PlayerDeath : MonoBehaviour
 {
     public FloatData playerHealth;
-    public WaitForSeconds wfs = new WaitForSeconds(2f);
+    public WaitForFixedUpdate wffu = new WaitForFixedUpdate();
     private MeshRenderer meshRenderer;
     public UnityEvent playerEvent;
+    public Vector3Data playerRespawnPosition;
+    public GameObject playerObj;
 
     public void Start()
     {
         playerHealth.value = 1f;
     }
 
-    public IEnumerator OnTriggerEnter(Collider other)
+    public void Update()
     {
         if (playerHealth.value <= 0)
         {
-            yield return wfs;
-            playerHealth.value = .75f;
-            playerEvent.Invoke();
+            StartCoroutine(RespawnPlayer());
         }
+    }
+
+    private IEnumerator RespawnPlayer()
+    {
+        yield return wffu;
+        playerObj.transform.position = playerRespawnPosition.value;  /*not being called >:( */
+        playerHealth.value = .75f;
+        playerEvent.Invoke();
     }
 }

@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class FloatData : ScriptableObject
 {
     public float value;
+    public string objTag;
 
     public void SetValue(float number)
     {
@@ -22,7 +23,7 @@ public class FloatData : ScriptableObject
     
     public void SetImageFillAmount(Image img)
     {
-        if (value >= 0 || value <= 1)
+        if (value >= 0 || value <= 1 && GameObject.FindGameObjectWithTag(objTag))
         {
             img.fillAmount = value;
         }

@@ -10,8 +10,12 @@
           <e p="AIBehaviour.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
           <e p="BoomerangVelocity.cs" t="Include" />
+          <e p="Debugger.cs" t="Include" />
           <e p="DestroyGameObject.cs" t="Include" />
           <e p="EnemyDeath.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
+          <e p="ImageBehaviour.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
           <e p="LoadLevel.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
@@ -29,7 +33,9 @@
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="TagTriggerEventsBehaviour.cs" t="Include" />
           <e p="TriggerEventsBehaviour.cs" t="Include" />
+          <e p="UIImageBahaviour.cs" t="Include" />
           <e p="WeaponDamage.cs" t="Include" />
         </e>
       </e>
