@@ -48,11 +48,11 @@ public class PlayerController : MonoBehaviour
             flyCount = 0;
         }
 
-        if (Input.GetButtonDown("Jump") && flyCount < flightAmount.value)
+        /*if (Input.GetButtonDown("Jump") && flyCount < flightAmount.value)
         {
             yVar = flyHeight;
             flyCount++;
-        }
+        }*/
         
         controller.Move((movement) * Time.deltaTime);
     }
