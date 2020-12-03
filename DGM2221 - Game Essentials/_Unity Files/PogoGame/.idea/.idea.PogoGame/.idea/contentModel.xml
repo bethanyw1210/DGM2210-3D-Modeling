@@ -10,7 +10,6 @@
           <e p="AIBehaviour.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
           <e p="BoomerangVelocity.cs" t="Include" />
-          <e p="CharacterFlight.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="DestroyGameObject.cs" t="Include" />
           <e p="EnemyDeath.cs" t="Include" />
@@ -25,7 +24,6 @@
           <e p="ObjFollowPlayer.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
-          <e p="PlayerFlyingBehaviour.cs" t="Include" />
           <e p="RandomSpawnLocation.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="EnemyFloatData.cs" t="Include" />
@@ -35,6 +33,7 @@
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="TagImageBehaviour.cs" t="Include" />
           <e p="TagTriggerEventsBehaviour.cs" t="Include" />
           <e p="TriggerEventsBehaviour.cs" t="Include" />
           <e p="UIImageBahaviour.cs" t="Include" />

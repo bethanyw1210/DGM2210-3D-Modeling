@@ -3559,7 +3559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 411472a43574a824f90c62c24523d0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flightAmount: {fileID: 11400000, guid: 37bf9694e5dcae647b9ca25917683be5, type: 2}
+  flightAmount: {fileID: 11400000, guid: 1100a18e34d58624785842b89123e7ef, type: 2}
   flyCount: 0
 --- !u!143 &818340418
 CharacterController:
@@ -17956,7 +17956,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh43168
+  m_Name: pb_Mesh33266
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

@@ -1,18 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class ImageBehaviour : MonoBehaviour
 {
-    public UnityEvent damagePlayer;
-    public string objTag;
+    public UnityEvent imageEvent;
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (other.tag == objTag)
-        {
-            damagePlayer.Invoke();
-        }
+        imageEvent.Invoke();
     }
 }

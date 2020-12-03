@@ -8,9 +8,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public IntData flightAmount;
-    public float flyCount;
+    public FloatData flyCount;
 
-    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -9.81f;
+    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -15f, glideSpeed = -5f;
     private float vInput, hInput, yVar, moveSpeed;
     private CharacterController controller;
     private Vector3 movement;
@@ -23,14 +23,28 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
         {
             moveSpeed = sprintSpeed;
+            print("sprinting");
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
         {
             moveSpeed = normalSpeed;
+            print("walking");
+        }
+        
+        if (Input.GetKey(KeyCode.LeftShift) && !controller.isGrounded)
+        {
+            yVar = glideSpeed;
+            print("gliding");
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift) && !controller.isGrounded)
+        {
+            yVar = gravity;
+            print("not gliding");
         }
 
         hInput = Input.GetAxis("Horizontal") * -moveSpeed;
@@ -44,15 +58,14 @@ public class PlayerController : MonoBehaviour
 
         if (controller.isGrounded && movement.y < 0)
         {
-            yVar = -1f;
-            flyCount = 0;
+            flyCount.value = 0;
         }
 
-        /*if (Input.GetButtonDown("Jump") && flyCount < flightAmount.value)
+        if (Input.GetButton("Jump") && flyCount.value < flightAmount.value)
         {
             yVar = flyHeight;
-            flyCount++;
-        }*/
+            flyCount.value++;
+        }
         
         controller.Move((movement) * Time.deltaTime);
     }

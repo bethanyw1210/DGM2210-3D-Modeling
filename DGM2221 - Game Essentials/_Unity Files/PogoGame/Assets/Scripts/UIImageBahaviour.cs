@@ -12,8 +12,4 @@ public class UIImageBahaviour : MonoBehaviour
         img = GetComponent<Image>();
     }
 
-    public void UpdateImage(FloatData data)
-    {
-        img.fillAmount = data.value / 100;
-    }
 }
