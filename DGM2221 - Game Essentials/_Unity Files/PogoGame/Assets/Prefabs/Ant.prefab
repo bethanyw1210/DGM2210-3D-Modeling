@@ -523,7 +523,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
   compareTag: Player
+  enterDelayTime: 0.01
+  exitDelayTime: 0.01
 --- !u!1 &3086883696037687408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,7 +1040,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
   compareTag: Weapon
+  enterDelayTime: 0.01
+  exitDelayTime: 0.01
 --- !u!1 &3664278442061505194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 0}
+  startHealth: 0.25
 --- !u!65 &1870800919295468447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1450,13 +1461,13 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1
-  m_Speed: 15
-  m_Acceleration: 8
+  m_Speed: 20
+  m_Acceleration: 25
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 1000
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 1.8866742
   m_BaseOffset: 0.9433371

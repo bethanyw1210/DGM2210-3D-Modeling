@@ -20,13 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Platform1Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Platform1Animation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Platform2Controller.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Platform2Controller.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Debugs/Crit Damage!.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Debugs/Crit Damage!.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth7.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth8.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Ant/AntHealth9.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game/Levels/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +71,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
@@ -74,6 +86,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +150,7 @@
       <workItem from="1606935507162" duration="3139000" />
       <workItem from="1606950978326" duration="4168000" />
       <workItem from="1607104730923" duration="1309000" />
+      <workItem from="1607131141637" duration="1649000" />
     </task>
     <servers />
   </component>

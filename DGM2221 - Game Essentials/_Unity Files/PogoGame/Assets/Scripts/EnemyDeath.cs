@@ -6,10 +6,11 @@ using UnityEngine;
 public class EnemyDeath : MonoBehaviour
 {
     public FloatData enemyHealth;
+    public float startHealth;
 
     public void Start()
     {
-        enemyHealth.value = .1f;
+        enemyHealth.value = startHealth;
     }
 
     public void Update()
