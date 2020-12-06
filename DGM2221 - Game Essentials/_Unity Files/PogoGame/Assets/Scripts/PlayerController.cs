@@ -9,16 +9,20 @@ public class PlayerController : MonoBehaviour
 {
     public IntData flightAmount;
     public FloatData flyCount;
+    public float maxGlide;
 
-    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -15f, glideSpeed = -5f;
+    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -10f, glideSpeed = -1f;
     private float vInput, hInput, yVar, moveSpeed;
     private CharacterController controller;
     private Vector3 movement;
+    private WaitForSeconds wfs = new WaitForSeconds(2f);
+    private bool canGlide;
 
     private void Start()
     {
         moveSpeed = normalSpeed;
         controller = GetComponent<CharacterController>();
+        maxGlide = 0;
     }
 
     private void Update()
@@ -35,16 +39,29 @@ public class PlayerController : MonoBehaviour
             print("walking");
         }
         
-        if (Input.GetKey(KeyCode.LeftShift) && !controller.isGrounded)
+        if (Input.GetKey(KeyCode.LeftShift) && !controller.isGrounded && maxGlide < 100f)
         {
             yVar = glideSpeed;
+            maxGlide++;
+            moveSpeed = normalSpeed;
             print("gliding");
+
+            if (maxGlide >= 100f)
+            {
+                yVar = gravity;
+                print("falling");
+            }
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && !controller.isGrounded)
         {
             yVar = gravity;
             print("not gliding");
+        }
+
+        if (controller.isGrounded)
+        {
+            maxGlide = 0f;
         }
 
         hInput = Input.GetAxis("Horizontal") * -moveSpeed;
