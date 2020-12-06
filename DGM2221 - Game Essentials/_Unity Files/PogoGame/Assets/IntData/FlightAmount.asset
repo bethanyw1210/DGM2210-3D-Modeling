@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8530583478cd654c858806aab0d92a1, type: 3}
   m_Name: FlightAmount
   m_EditorClassIdentifier: 
-  value: 75
+  value: 50

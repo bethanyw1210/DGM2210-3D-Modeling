@@ -20,7 +20,7 @@ TagManager:
   - Weapon
   - 
   - Environment
-  - 
+  - InvisibleWall
   - 
   - LostBird
   - Cage
@@ -31,7 +31,7 @@ TagManager:
   - Platforms
   - 
   - 
-  - 
+  - Health
   - 
   - 
   - 

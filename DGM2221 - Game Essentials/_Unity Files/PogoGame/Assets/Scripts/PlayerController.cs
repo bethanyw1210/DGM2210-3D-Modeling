@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public FloatData flyCount;
     public float maxGlide;
 
-    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -10f, glideSpeed = -1f;
+    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -9.81f, glideSpeed = -1f;
     private float vInput, hInput, yVar, moveSpeed;
     private CharacterController controller;
     private Vector3 movement;
