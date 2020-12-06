@@ -19,9 +19,9 @@
           <e p="InstanceBehaviour.cs" t="Include" />
           <e p="LoadLevel.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
-          <e p="MouseEventsBehaviour.cs" t="Include" />
           <e p="ObjectRotation.cs" t="Include" />
           <e p="ObjFollowPlayer.cs" t="Include" />
+          <e p="OnMouseDown.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="RandomSpawnLocation.cs" t="Include" />
