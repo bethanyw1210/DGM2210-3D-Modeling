@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 12145887351433720}
   - component: {fileID: 12145887351433718}
   - component: {fileID: 12145887351433721}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 1297266658494042296}
   - component: {fileID: 7327947985345547477}
   - component: {fileID: 7421865063216170338}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: PurpleLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 8843543386708485334}
   - component: {fileID: 111471631770098623}
   - component: {fileID: 4151246599313935591}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WorkerAnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 8956336837974747928}
   - component: {fileID: 8956336837974747931}
   - component: {fileID: 6542103690120180295}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WorkerAnt
   m_TagString: Enemy
   m_Icon: {fileID: 0}

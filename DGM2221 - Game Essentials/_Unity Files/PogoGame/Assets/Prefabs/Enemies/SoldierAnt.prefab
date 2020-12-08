@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4148578494826798505}
   - component: {fileID: 5629638966896001476}
   - component: {fileID: 767604805138287211}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: PurpleLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 850852617449142692}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 6330139030448891406}
   - component: {fileID: 6330139030448891401}
   - component: {fileID: 6330139030448891400}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: SoldierAnt
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 5720963799660545093}
   - component: {fileID: 8023364864074019732}
   - component: {fileID: 5233687277709609783}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: SoldierAnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}

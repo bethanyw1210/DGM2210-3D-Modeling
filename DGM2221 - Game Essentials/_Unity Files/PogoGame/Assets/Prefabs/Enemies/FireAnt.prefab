@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2388101288239004837}
   - component: {fileID: 2388101288239004836}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 2766262277391442135}
   - component: {fileID: 2766262277391442134}
   - component: {fileID: 2766262277391442153}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: FireAnt
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 6555665791681166847}
   - component: {fileID: 5830736146171581264}
   - component: {fileID: 7664986243273401041}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: ButtFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 7611398514157685294}
   - component: {fileID: 7631351964034286345}
   - component: {fileID: 7540205589600721003}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: FireAnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5306,7 +5306,7 @@ GameObject:
   - component: {fileID: 5199442205571210058}
   - component: {fileID: 4583232694863759143}
   - component: {fileID: 8871391472769928054}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: PurpleLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
