@@ -4970,9 +4970,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 1751867783320263632}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -4985,5 +4982,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
   enterDelayTime: 0.01
   exitDelayTime: 0.01
