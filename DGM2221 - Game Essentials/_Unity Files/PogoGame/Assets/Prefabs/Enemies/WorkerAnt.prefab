@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 12145887089508714}
   - component: {fileID: 12145887089508712}
   - component: {fileID: 12145887089508715}
+  - component: {fileID: 4587280645128251549}
   m_Layer: 17
   m_Name: DamageToPlayer
   m_TagString: Untagged
@@ -90,6 +91,20 @@ MonoBehaviour:
   compareTag: Player
   enterDelayTime: 0.01
   exitDelayTime: 0.01
+--- !u!64 &4587280645128251549
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12145887089508717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4921193972594767998, guid: 9f6a538cad4838249a16713e78cfe52a, type: 3}
 --- !u!1 &12145887201183236
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,8 +608,8 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.98676085
-  m_Speed: 25
-  m_Acceleration: 45
+  m_Speed: 15
+  m_Acceleration: 30
   avoidancePriority: 50
   m_AngularSpeed: 1000
   m_StoppingDistance: 0

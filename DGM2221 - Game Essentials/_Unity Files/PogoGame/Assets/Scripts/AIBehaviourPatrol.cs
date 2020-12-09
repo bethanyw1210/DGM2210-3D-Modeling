@@ -12,8 +12,7 @@ public class AIBehaviourPatrol : MonoBehaviour
     public List<Transform> patrolPoints;
     public bool canPatrol = true;
     public FloatData playerHealth;
-    public string compareTag;
-    
+
     private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
     private WaitForSeconds wfs = new WaitForSeconds(2f);
     private NavMeshAgent agent;
@@ -28,23 +27,20 @@ public class AIBehaviourPatrol : MonoBehaviour
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(compareTag))
+        canHunt = true;
+        canPatrol = false;
+        agent.destination = player.position;
+        var distance = agent.remainingDistance;
+
+        while (distance <= 1f && (playerHealth.value > 0))
         {
-            canHunt = true;
-            canPatrol = false;
-            agent.destination = player.position;
-            var distance = agent.remainingDistance;
-
-            while (distance <= 1f && (playerHealth.value > 0))
-            {
-                distance = agent.remainingDistance;
-                yield return wffu;
-            }
-
-            yield return wfs;
-
-            StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
+            distance = agent.remainingDistance;
+            yield return wffu;
         }
+
+        yield return wfs;
+
+        StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
     }
 
     private void OnTriggerExit(Collider other)

@@ -4824,8 +4824,8 @@ GameObject:
   - component: {fileID: 2642462128857812687}
   - component: {fileID: 238442323387546117}
   - component: {fileID: 1751867783320263633}
-  - component: {fileID: 1751867783320263635}
-  - component: {fileID: 7685756979854832395}
+  - component: {fileID: 8231279280959279587}
+  - component: {fileID: 1216222217137548977}
   m_Layer: 23
   m_Name: FeatherReappear
   m_TagString: Untagged
@@ -4918,20 +4918,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &1751867783320263635
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751867783320263632}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.396846, y: 3.7005796, z: 1.4418379}
-  m_Center: {x: -0.024432987, y: 0, z: -0.033933997}
---- !u!114 &7685756979854832395
+--- !u!114 &8231279280959279587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4994,9 +4981,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1751867783320263635}
+      - m_Target: {fileID: 1216222217137548977}
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
-        m_MethodName: set_enabled
+        m_MethodName: set_isTrigger
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5033,9 +5020,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 238442323387546117}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 1216222217137548977}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_isTrigger
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5047,4 +5034,18 @@ MonoBehaviour:
         m_CallState: 2
   compareTag: Player
   enterDelayTime: 0.01
-  exitDelayTime: 12
+  exitDelayTime: 10
+--- !u!64 &1216222217137548977
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751867783320263632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5116120378975819861, guid: fc0337cf3bc0f574fa3b52c222060709, type: 3}

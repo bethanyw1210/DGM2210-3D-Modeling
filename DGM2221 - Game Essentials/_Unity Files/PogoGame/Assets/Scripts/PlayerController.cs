@@ -8,10 +8,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public IntData flightAmount;
-    public FloatData flyCount;
+    public FloatData flyCount, gravity;
     public float maxGlide;
+    public IntData walkSpeed;
 
-    private float normalSpeed = 12f, flyHeight = 10f, gravity = -9.81f, glideSpeed = -1f;
+    private float flyHeight = 10f, glideSpeed = -1f;
     private float vInput, hInput, yVar, moveSpeed;
     private CharacterController controller;
     private Vector3 movement;
@@ -20,9 +21,11 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        moveSpeed = normalSpeed;
+        moveSpeed = walkSpeed.value;
         controller = GetComponent<CharacterController>();
         maxGlide = 0;
+        flightAmount.value = 40;
+        gravity.value = -9.81f;
     }
 
     private void Update()
@@ -32,19 +35,19 @@ public class PlayerController : MonoBehaviour
         {
             yVar = glideSpeed;
             maxGlide++;
-            moveSpeed = normalSpeed;
+            moveSpeed = walkSpeed.value;
             print("gliding");
 
             if (maxGlide >= 100f)
             {
-                yVar = gravity;
+                yVar = gravity.value;
                 print("falling");
             }
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && !controller.isGrounded)
         {
-            yVar = gravity;
+            yVar = gravity.value;
             print("not gliding");
         }
 
@@ -60,7 +63,7 @@ public class PlayerController : MonoBehaviour
         Vector3 newPosition = new Vector3(-hInput, 0.0f, vInput);
         transform.rotation = Quaternion.LookRotation(newPosition);
 
-        yVar += gravity*Time.deltaTime;
+        yVar += gravity.value*Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)
         {
