@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public FloatData flyCount;
     public float maxGlide;
 
-    private float normalSpeed = 10f, sprintSpeed = 20f, flyHeight = 10f, gravity = -9.81f, glideSpeed = -1f;
+    private float normalSpeed = 12f, flyHeight = 10f, gravity = -9.81f, glideSpeed = -1f;
     private float vInput, hInput, yVar, moveSpeed;
     private CharacterController controller;
     private Vector3 movement;
@@ -27,18 +27,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.isGrounded)
-        {
-            moveSpeed = sprintSpeed;
-            print("sprinting");
-        }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift) && controller.isGrounded)
-        {
-            moveSpeed = normalSpeed;
-            print("walking");
-        }
-        
         if (Input.GetKey(KeyCode.LeftShift) && !controller.isGrounded && maxGlide < 100f)
         {
             yVar = glideSpeed;

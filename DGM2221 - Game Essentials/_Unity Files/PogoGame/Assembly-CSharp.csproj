@@ -52,7 +52,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoomerangVelocity.cs" />
      <Compile Include="Assets\Scripts\TagTriggerEventsBehaviour.cs" />
-     <Compile Include="Assets\Scripts\AIBehaviour.cs" />
+     <Compile Include="Assets\Scripts\AIBehaviourPatrol.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ObjFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\IntData.cs" />
@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\ImageBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\FloatData.cs" />
      <Compile Include="Assets\Scripts\ApplyForce.cs" />
+     <Compile Include="Assets\Scripts\OnMouseDown.cs" />
      <Compile Include="Assets\Scripts\GameAction.cs" />
      <Compile Include="Assets\Scripts\LookAtBehaviour.cs" />
      <Compile Include="Assets\Scripts\EnemyDeath.cs" />
@@ -77,7 +78,7 @@
      <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
-     <Compile Include="Assets\Scripts\OnMouseDown.cs" />
+     <Compile Include="Assets\Scripts\AIBehaviour.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
