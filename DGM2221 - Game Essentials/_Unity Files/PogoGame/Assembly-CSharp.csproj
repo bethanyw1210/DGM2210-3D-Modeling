@@ -78,7 +78,6 @@
      <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
-     <Compile Include="Assets\Scripts\AIBehaviour.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

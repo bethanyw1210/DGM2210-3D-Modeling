@@ -20,22 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameArt/QueenAnt.ma" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/QueenAnt.ma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IntData/FlightAmount.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/IntData/FlightAmount.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Clear.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Clear.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/PurpleGlow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PurpleGlow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireAnt.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/WorkerAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/WorkerAnt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FeatherReappear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FeatherReappear.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel/NavMesh.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,9 +74,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnMouseDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathInstantiate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathInstantiate.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +145,7 @@
       <workItem from="1607230103908" duration="1375000" />
       <workItem from="1607284843167" duration="2182000" />
       <workItem from="1607452277076" duration="5595000" />
+      <workItem from="1607542980002" duration="493000" />
     </task>
     <servers />
   </component>
