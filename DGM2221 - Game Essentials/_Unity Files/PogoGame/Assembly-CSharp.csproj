@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\LookAtBehaviour.cs" />
      <Compile Include="Assets\Scripts\EnemyDeath.cs" />
      <Compile Include="Assets\Scripts\LoadLevel.cs" />
+     <Compile Include="Assets\Scripts\WeaponDamage.cs" />
      <Compile Include="Assets\Scripts\PlayerDeath.cs" />
      <Compile Include="Assets\Scripts\WeakenFlight.cs" />
      <Compile Include="Assets\Scripts\Debugger.cs" />
@@ -77,10 +78,9 @@
      <Compile Include="Assets\Scripts\ScriptableObjects\LoadLevels.cs" />
      <Compile Include="Assets\Scripts\ObjectRotation.cs" />
      <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ChangeWeapon.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
-     <Compile Include="Assets\Scripts\WeaponDamage.cs" />
-     <Compile Include="Assets\Scripts\ChangeWeapon.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
