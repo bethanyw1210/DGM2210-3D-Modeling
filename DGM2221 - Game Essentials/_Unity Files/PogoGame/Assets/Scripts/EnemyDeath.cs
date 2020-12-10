@@ -7,6 +7,7 @@ public class EnemyDeath : MonoBehaviour
 {
     public FloatData enemyHealth;
     public float startHealth;
+    public GameObject self;
 
     public void Start()
     {
@@ -17,7 +18,7 @@ public class EnemyDeath : MonoBehaviour
     {
         if (enemyHealth.value <= 0)
         {
-            Destroy(gameObject);
+            Destroy(self);
         }
     }
 }
