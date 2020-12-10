@@ -10,6 +10,7 @@
           <e p="AIBehaviourPatrol.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
           <e p="BoomerangVelocity.cs" t="Include" />
+          <e p="ChangeWeapon.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="DestroyGameObject.cs" t="Include" />
           <e p="EnemyDeath.cs" t="Include" />
@@ -38,6 +39,7 @@
           <e p="TriggerEventsBehaviour.cs" t="Include" />
           <e p="UIImageBahaviour.cs" t="Include" />
           <e p="WeakenFlight.cs" t="Include" />
+          <e p="WeaponDamage.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

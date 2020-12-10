@@ -5273,8 +5273,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8723614933331815996}
-  - component: {fileID: 8723614933331815998}
   - component: {fileID: 8723614933331815997}
+  - component: {fileID: 1810639990438799285}
   m_Layer: 17
   m_Name: DamageToEnemy
   m_TagString: Untagged
@@ -5292,44 +5292,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8723614933390811779}
+  m_Children: []
   m_Father: {fileID: 3336234085326702519}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8723614933331815998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8723614933331815971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf6ed02190f1987489922e54645834a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: d764ef47aa1fa2d4b81522d6004fbae5, type: 2}
-        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
-        m_MethodName: UpdateValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -0.01
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  compareTag: Weapon
-  enterDelayTime: 0.01
-  exitDelayTime: 0.01
 --- !u!65 &8723614933331815997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5343,81 +5309,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.8697479, y: 2.3561718, z: 3.8024678}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &8723614933390811778
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8723614933390811779}
-  - component: {fileID: 8723614933390811805}
-  - component: {fileID: 8723614933390811804}
-  m_Layer: 17
-  m_Name: CritDamageToEnemy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8723614933390811779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8723614933390811778}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8723614933331815996}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8723614933390811805
+--- !u!114 &1810639990438799285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8723614933390811778}
+  m_GameObject: {fileID: 8723614933331815971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf6ed02190f1987489922e54645834a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 12a1547909c73164aa32823df7286758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: d764ef47aa1fa2d4b81522d6004fbae5, type: 2}
-        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
-        m_MethodName: UpdateValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -0.05
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  enemyHealth: {fileID: 0}
+  weaponDamage: {fileID: 11400000, guid: d0e6740d9c95737478b46dd865a7ad4e, type: 2}
   compareTag: Weapon
-  enterDelayTime: 0.01
-  exitDelayTime: 0.01
---- !u!135 &8723614933390811804
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8723614933390811778}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.75
-  m_Center: {x: 0, y: 0.39, z: 1.26}

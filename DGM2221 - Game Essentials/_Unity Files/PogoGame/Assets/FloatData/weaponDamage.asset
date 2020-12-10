@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc650025e10ee464a9df3a0ca3447722, type: 3}
-  m_Name: weaponDamage
+  m_Name: WeaponDamage
   m_EditorClassIdentifier: 
-  value: -0.01
+  value: 0.05
+  objTag: 

@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class RandomSpawnLocation : MonoBehaviour
 {
-    public GameObject obj;
+    public GameObject obj, cageObj;
 
     public Transform parent;
     private Vector3Data spawnLocation;
@@ -14,6 +14,8 @@ public class RandomSpawnLocation : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         Instantiate(obj, parent);
+        
+        Destroy(cageObj);
     }
 }
  

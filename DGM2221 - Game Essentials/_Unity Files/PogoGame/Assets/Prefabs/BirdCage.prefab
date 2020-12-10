@@ -255,4 +255,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 4756834699110116841, guid: 3b7952984d26c6d4dad44d9c0ca57c9b, type: 3}
+  cageObj: {fileID: 2270050331184181640}
   parent: {fileID: 0}
