@@ -13,6 +13,8 @@ public class PlayerDeath : MonoBehaviour
     public Vector3Data playerRespawnPosition;
     public GameObject playerObj;
     public Image img;
+    public IntData birdCount;
+
 
     public void Start()
     {
@@ -21,7 +23,7 @@ public class PlayerDeath : MonoBehaviour
 
     public void Update()
     {
-        if (playerHealth.value <= 0)
+        if (playerHealth.value <= 0 && (birdCount.value > 0))
         {
             RespawnPlayer();
             img.fillAmount = playerHealth.value;
@@ -32,6 +34,7 @@ public class PlayerDeath : MonoBehaviour
     {
         playerObj.transform.position = playerRespawnPosition.value;  /*not being called >:( */
         playerHealth.value = .75f;
+        birdCount.value--;
         playerEvent.Invoke();
     }
 }

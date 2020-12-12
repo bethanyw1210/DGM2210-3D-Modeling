@@ -9,6 +9,8 @@
         <e p="Scripts" t="Include">
           <e p="AIBehaviourPatrol.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
+          <e p="BabyBirdManager.cs" t="Include" />
+          <e p="BirdCountTrigger.cs" t="Include" />
           <e p="BoomerangVelocity.cs" t="Include" />
           <e p="ChangeWeapon.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
@@ -19,7 +21,6 @@
           <e p="GameActionHandler.cs" t="Include" />
           <e p="ImageBehaviour.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
-          <e p="LoadLevel.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="ObjectRotation.cs" t="Include" />
           <e p="ObjFollowPlayer.cs" t="Include" />
@@ -27,6 +28,7 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="RandomSpawnLocation.cs" t="Include" />
+          <e p="SceneManager.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="EnemyFloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />

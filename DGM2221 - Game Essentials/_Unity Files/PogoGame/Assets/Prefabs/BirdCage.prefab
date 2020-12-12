@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 2270050331184181642}
   - component: {fileID: 2270050331184181647}
   - component: {fileID: 2270050331184181644}
+  - component: {fileID: 1440775890306301811}
   m_Layer: 15
   m_Name: BirdCage
   m_TagString: Untagged
@@ -257,3 +258,32 @@ MonoBehaviour:
   obj: {fileID: 4756834699110116841, guid: 3b7952984d26c6d4dad44d9c0ca57c9b, type: 3}
   cageObj: {fileID: 2270050331184181640}
   parent: {fileID: 0}
+--- !u!114 &1440775890306301811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2270050331184181640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1432f8c70415944e89c483de0cbe753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compareTag: Player
+  birdCount: {fileID: 11400000, guid: e0c9cc5cc5cd7a444b51f02acd7dc0eb, type: 2}
+  SetActiveObj:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
