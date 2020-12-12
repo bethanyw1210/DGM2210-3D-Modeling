@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce40cbf88ae7354b9b4d3d09c3c5f11, type: 3}
   m_Name: BossDoor
   m_EditorClassIdentifier: 
-  value: {x: 81, y: 397.5, z: 0}
+  value: {x: 81, y: 397.5, z: 785}

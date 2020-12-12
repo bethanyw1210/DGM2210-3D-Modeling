@@ -20,21 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/BossLevel.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/BossLevel.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/Building1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/Building1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/Building2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/Building2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LoadLevel/MainLevel.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LoadLevel/MainLevel.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/BossDoor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/BossDoor.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch1Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch1Entrance.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch2Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch2Entrance.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building1Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building1Entrance.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building2Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building2Entrance.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/MainLevel.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/MainLevel.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,10 +96,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BirdCountManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BirdCountTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
       </list>
     </option>
   </component>
@@ -171,7 +170,7 @@
       <workItem from="1607452277076" duration="5595000" />
       <workItem from="1607542980002" duration="15070000" />
       <workItem from="1607730679029" duration="4964000" />
-      <workItem from="1607743264606" duration="949000" />
+      <workItem from="1607743264606" duration="2002000" />
     </task>
     <servers />
   </component>

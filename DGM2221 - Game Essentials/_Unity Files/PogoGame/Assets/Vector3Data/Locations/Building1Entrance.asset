@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dce40cbf88ae7354b9b4d3d09c3c5f11, type: 3}
   m_Name: Building1Entrance
   m_EditorClassIdentifier: 
-  value: {x: -92.5, y: 14.5, z: 408}
+  value: {x: -92.5, y: 14.5, z: 1005}
