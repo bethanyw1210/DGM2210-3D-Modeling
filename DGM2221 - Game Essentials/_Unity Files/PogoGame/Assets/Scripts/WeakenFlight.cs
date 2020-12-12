@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WeakenFlight : MonoBehaviour
 {
-    public IntData flightAmount;
+    public FloatData flightAmount;
     public int newFlightAmount;
 
     public void OnTriggerEnter(Collider other)

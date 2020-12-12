@@ -4858,7 +4858,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 2668241586156117261}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.25
+  m_Radius: 0.35
   m_Speed: 30
   m_Acceleration: 60
   avoidancePriority: 50
@@ -4902,6 +4902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 11400000, guid: d764ef47aa1fa2d4b81522d6004fbae5, type: 2}
   startHealth: 0.65
+  self: {fileID: 0}
 --- !u!65 &2668241586156117262
 BoxCollider:
   m_ObjectHideFlags: 0

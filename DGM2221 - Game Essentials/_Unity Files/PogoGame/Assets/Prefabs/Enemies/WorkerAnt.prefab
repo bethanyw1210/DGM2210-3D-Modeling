@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 12145887089508714}
-  - component: {fileID: 12145887089508712}
   - component: {fileID: 12145887089508715}
   - component: {fileID: 4587280645128251549}
   m_Layer: 17
@@ -33,19 +32,6 @@ Transform:
   m_Father: {fileID: 8575025533741085088}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &12145887089508712
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12145887089508717}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.3793181, y: 0.97605866, z: 1.9735217}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &12145887089508715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 11400000, guid: f5584dc0825d9704db60803af9d47930, type: 2}
   startHealth: 0.25
+  self: {fileID: 0}
 --- !u!65 &12145887351433721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -510,7 +497,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 8956336837974747930}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.98676085
+  m_Radius: 0.25
   m_Speed: 15
   m_Acceleration: 30
   avoidancePriority: 50
@@ -555,3 +542,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 11400000, guid: f5584dc0825d9704db60803af9d47930, type: 2}
   startHealth: 0.25
+  self: {fileID: 0}

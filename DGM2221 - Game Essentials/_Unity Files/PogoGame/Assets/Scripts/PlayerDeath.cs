@@ -32,7 +32,7 @@ public class PlayerDeath : MonoBehaviour
 
     private void RespawnPlayer()
     {
-        playerObj.transform.position = playerRespawnPosition.value;  /*not being called >:( */
+        playerObj.transform.position = playerRespawnPosition.value;
         playerHealth.value = .75f;
         birdCount.value--;
         playerEvent.Invoke();
