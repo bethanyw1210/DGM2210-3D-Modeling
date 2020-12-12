@@ -3,13 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class ImageBehaviour : MonoBehaviour
 {
-    public UnityEvent imageEvent;
-
-    private void Update()
+    private Image imgObj;
+    public IntData dataObj;
+    
+    void Start()
     {
-        imageEvent.Invoke();
+        imgObj = GetComponent<Image>();
+    }
+    
+    void Update()
+    {
+        imgObj.fillAmount = dataObj.value;
     }
 }

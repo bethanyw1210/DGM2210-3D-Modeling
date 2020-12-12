@@ -1,15 +1,25 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class UIImageBahaviour : MonoBehaviour
 {
-    private Image img;
+    public UnityEvent startEvent;
+    private Image imgObj;
+    public FloatData valueAmount;
 
-    void Awake()
+    public void UpdateImage(FloatData data)
     {
-        img = GetComponent<Image>();
+        imgObj.fillAmount = valueAmount.value;
+    }
+
+    private void Awake()
+    {
+        imgObj = GetComponent<Image>();
+        startEvent.Invoke();
     }
 
 }

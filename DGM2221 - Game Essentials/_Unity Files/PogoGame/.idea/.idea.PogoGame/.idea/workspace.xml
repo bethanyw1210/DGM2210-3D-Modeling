@@ -20,19 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/GameOver.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/GameOver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/NotEnough.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/NotEnough.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/PauseMenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/PauseMenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameArt/YouWon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameArt/YouWon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IntData/FlightAmount.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IntData/FlightAmount.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/BossDoor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/BossDoor.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch1Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch1Entrance.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch2Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Branch2Entrance.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building1Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building1Entrance.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building2Entrance.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/Building2Entrance.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vector3Data/Locations/MainLevel.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Vector3Data/Locations/MainLevel.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NeedMore.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NeedMore.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Win!.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Win!.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/IntData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/IntData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +50,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,8 +59,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeakenFlight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavious.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,11 +80,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterFlight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TagImageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
@@ -85,7 +91,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeakenFlight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomSpawnLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponStartColor.cs" />
@@ -100,6 +105,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavious.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -170,7 +183,7 @@
       <workItem from="1607452277076" duration="5595000" />
       <workItem from="1607542980002" duration="15070000" />
       <workItem from="1607730679029" duration="4964000" />
-      <workItem from="1607743264606" duration="2002000" />
+      <workItem from="1607743264606" duration="9648000" />
     </task>
     <servers />
   </component>

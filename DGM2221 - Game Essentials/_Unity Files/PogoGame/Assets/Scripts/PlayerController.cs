@@ -2,15 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
 
 [RequireComponent(typeof(CharacterController))]
 
 public class PlayerController : MonoBehaviour
 {
-    public IntData flightAmount;
+    public FloatData flightAmount;
     public FloatData flyCount, gravity;
     public float maxGlide;
     public IntData walkSpeed;
+
+    public Image flyBar;
+    public Image glideBar;
 
     private float flyHeight = 10f, glideSpeed = -1f;
     private float vInput, hInput, yVar, moveSpeed;
@@ -26,10 +31,23 @@ public class PlayerController : MonoBehaviour
         maxGlide = 0;
         flightAmount.value = 40;
         gravity.value = -9.81f;
+        flyBar.fillAmount = 0f;
     }
 
     private void Update()
     {
+        flyBar.fillAmount = flyCount.value;
+        glideBar.fillAmount = maxGlide;
+
+        if (flyCount.value == flightAmount.value)
+        {
+            flyBar.fillAmount = 0;
+        }
+
+        if (maxGlide == 100f)
+        {
+            glideBar.fillAmount = 0;
+        }
 
         if (Input.GetKey(KeyCode.LeftShift) && !controller.isGrounded && maxGlide < 100f)
         {
@@ -78,4 +96,5 @@ public class PlayerController : MonoBehaviour
         
         controller.Move((movement) * Time.deltaTime);
     }
+    
 }

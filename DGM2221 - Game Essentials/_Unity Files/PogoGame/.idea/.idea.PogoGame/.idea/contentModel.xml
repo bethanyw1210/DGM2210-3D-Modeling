@@ -22,24 +22,27 @@
           <e p="GameActionHandler.cs" t="Include" />
           <e p="ImageBehaviour.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="LoadLevel.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="ObjectRotation.cs" t="Include" />
           <e p="ObjFollowPlayer.cs" t="Include" />
           <e p="OnMouseDown.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerDeath.cs" t="Include" />
           <e p="RandomSpawnLocation.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="EnemyFloatData.cs" t="Include" />
-            <e p="IntData.cs" t="Include" />
             <e p="LoadLevels.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="TagImageBehaviour.cs" t="Include" />
           <e p="TagTriggerEventsBehaviour.cs" t="Include" />
+          <e p="TextBehavious.cs" t="Include" />
+          <e p="TextUIManager.cs" t="Include" />
           <e p="TriggerEventsBehaviour.cs" t="Include" />
           <e p="UIImageBahaviour.cs" t="Include" />
           <e p="WeakenFlight.cs" t="Include" />
