@@ -22,8 +22,6 @@
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthPickupRespawn.cs" t="Include" />
-          <e p="IDData.cs" t="Include" />
-          <e p="IDDataHolder.cs" t="Include" />
           <e p="ImageBehaviour.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
@@ -43,7 +41,6 @@
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
-          <e p="StringData.cs" t="Include" />
           <e p="TagImageBehaviour.cs" t="Include" />
           <e p="TagTriggerEventsBehaviour.cs" t="Include" />
           <e p="TextBehavious.cs" t="Include" />
