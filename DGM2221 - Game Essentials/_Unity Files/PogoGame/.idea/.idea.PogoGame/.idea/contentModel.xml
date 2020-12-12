@@ -16,11 +16,13 @@
           <e p="Debugger.cs" t="Include" />
           <e p="DestroyGameObject.cs" t="Include" />
           <e p="EnemyDeath.cs" t="Include" />
+          <e p="ExitGameManager.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="ImageBehaviour.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
+          <e p="LoadLevel.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="ObjectRotation.cs" t="Include" />
           <e p="ObjFollowPlayer.cs" t="Include" />

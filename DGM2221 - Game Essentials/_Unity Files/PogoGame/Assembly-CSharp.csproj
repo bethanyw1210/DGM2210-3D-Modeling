@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\ScriptableObjects\IntData.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\EnemyFloatData.cs" />
      <Compile Include="Assets\Scripts\TagImageBehaviour.cs" />
+     <Compile Include="Assets\Scripts\BabyBirdManager.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\ImageBehaviour.cs" />
      <Compile Include="Assets\Scripts\FloatData.cs" />
@@ -65,6 +66,7 @@
      <Compile Include="Assets\Scripts\OnMouseDown.cs" />
      <Compile Include="Assets\Scripts\GameAction.cs" />
      <Compile Include="Assets\Scripts\LookAtBehaviour.cs" />
+     <Compile Include="Assets\Scripts\SceneManager.cs" />
      <Compile Include="Assets\Scripts\EnemyDeath.cs" />
      <Compile Include="Assets\Scripts\WeaponDamage.cs" />
      <Compile Include="Assets\Scripts\PlayerDeath.cs" />
@@ -74,15 +76,15 @@
      <Compile Include="Assets\Scripts\RandomSpawnLocation.cs" />
      <Compile Include="Assets\Scripts\GameActionHandler.cs" />
      <Compile Include="Assets\Scripts\DestroyGameObject.cs" />
+     <Compile Include="Assets\Scripts\BirdCountTrigger.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\LoadLevels.cs" />
      <Compile Include="Assets\Scripts\ObjectRotation.cs" />
      <Compile Include="Assets\Scripts\InstanceBehaviour.cs" />
      <Compile Include="Assets\Scripts\ChangeWeapon.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
-     <Compile Include="Assets\Scripts\BirdCountTrigger.cs" />
-     <Compile Include="Assets\Scripts\BabyBirdManager.cs" />
-     <Compile Include="Assets\Scripts\SceneManager.cs" />
+     <Compile Include="Assets\Scripts\LoadLevel.cs" />
+     <Compile Include="Assets\Scripts\ExitGameManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
