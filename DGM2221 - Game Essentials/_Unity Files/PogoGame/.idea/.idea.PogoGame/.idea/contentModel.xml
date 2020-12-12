@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="AIBehaviourPatrol.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
+          <e p="AttatchOnTrigger.cs" t="Include" />
           <e p="BabyBirdManager.cs" t="Include" />
           <e p="BirdCountTrigger.cs" t="Include" />
           <e p="BoomerangVelocity.cs" t="Include" />
@@ -21,6 +22,8 @@
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthPickupRespawn.cs" t="Include" />
+          <e p="IDData.cs" t="Include" />
+          <e p="IDDataHolder.cs" t="Include" />
           <e p="ImageBehaviour.cs" t="Include" />
           <e p="InstanceBehaviour.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
@@ -40,6 +43,7 @@
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="StringData.cs" t="Include" />
           <e p="TagImageBehaviour.cs" t="Include" />
           <e p="TagTriggerEventsBehaviour.cs" t="Include" />
           <e p="TextBehavious.cs" t="Include" />

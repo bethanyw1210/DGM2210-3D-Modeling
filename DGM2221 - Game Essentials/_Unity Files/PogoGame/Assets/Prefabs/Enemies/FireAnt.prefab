@@ -291,6 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 11400000, guid: 2615f04cf29cade47b002b5ebb36e60c, type: 2}
   startHealth: 0.35
+  self: {fileID: 0}
 --- !u!65 &2766262277391442153
 BoxCollider:
   m_ObjectHideFlags: 0
