@@ -198,7 +198,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.15
+          m_FloatArgument: -0.12
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -417,6 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 11400000, guid: cf57b6aff3a698347b9becdac41259e6, type: 2}
   startHealth: 0.5
+  self: {fileID: 0}
 --- !u!65 &6330139030448891400
 BoxCollider:
   m_ObjectHideFlags: 0
