@@ -2,11 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class WeaponDamage : MonoBehaviour
 {
     public FloatData enemyHealth, weaponDamage;
     public string compareTag;
+    public UnityEvent particleEvent;
 
     private void Update()
     {
@@ -22,6 +24,7 @@ public class WeaponDamage : MonoBehaviour
         {
             var newHealth = enemyHealth.value - weaponDamage.value;
             enemyHealth.value = newHealth;
+            particleEvent.Invoke();
         }
     }
 }

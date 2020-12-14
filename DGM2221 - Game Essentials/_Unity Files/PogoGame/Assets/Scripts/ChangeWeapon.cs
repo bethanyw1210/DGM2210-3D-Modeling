@@ -10,7 +10,7 @@ public class ChangeWeapon : MonoBehaviour
     public UnityEvent changeWeaponEvent;
     public FloatData originalWeaponDmg;
     public float newWeaponDmg;
-    public GameObject weapon;
+    public GameObject weapon, chest;
     public Material startColor;
     
     public void Start()
@@ -25,6 +25,7 @@ public class ChangeWeapon : MonoBehaviour
         {
             originalWeaponDmg.value = newWeaponDmg;
             changeWeaponEvent.Invoke();
+            Destroy(chest);
         }
     }
 }

@@ -29,6 +29,7 @@
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="ObjectRotation.cs" t="Include" />
           <e p="ObjFollowPlayer.cs" t="Include" />
+          <e p="OnDeathSetActive.cs" t="Include" />
           <e p="OnMouseDown.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />

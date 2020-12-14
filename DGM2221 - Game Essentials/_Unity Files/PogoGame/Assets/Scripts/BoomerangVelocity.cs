@@ -15,10 +15,10 @@ public class BoomerangVelocity : MonoBehaviour
         var originalVelocity = rBody.velocity;
         while (canShoot)
         {
-            rBody.velocity = Vector3.Lerp(rBody.velocity, -originalVelocity, .1f);
+            rBody.velocity = Vector3.Lerp(rBody.velocity, -originalVelocity, .3f);
             yield return wffu;
             yield return wfs;
-            rBody.velocity = Vector3.Lerp(-rBody.velocity, originalVelocity, .001f);
+            rBody.velocity = Vector3.Lerp(-rBody.velocity, originalVelocity, .003f);
             yield return wfs;
             Destroy(gameObject);
         }

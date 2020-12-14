@@ -20,11 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Dr.Bentley.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/Dr.Bentley.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/QueenHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/QueenHealth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BirdCage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BirdCage.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireAnt.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/WorkerAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/WorkerAnt.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoomerangVelocity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoomerangVelocity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TagTriggerEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavious.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Editor/MenuActions/Geometry/BridgeEdges.cs" root0="SKIP_HIGHLIGHTING" />
@@ -59,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationBool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
@@ -79,9 +89,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIBehaviourPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomSpawnLocation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponStartColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathInnstantiate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
@@ -96,7 +104,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeakenFlight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPickupRespawn.cs" />
@@ -109,6 +116,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IsGroundedManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoomerangVelocity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +202,7 @@
       <workItem from="1607743264606" duration="9648000" />
       <workItem from="1607793506345" duration="14923000" />
       <workItem from="1607897814927" duration="755000" />
+      <workItem from="1607906796070" duration="3839000" />
     </task>
     <servers />
   </component>
