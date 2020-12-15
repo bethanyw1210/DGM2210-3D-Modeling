@@ -17,6 +17,9 @@ public class AttatchOnTrigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        transform.parent = null;
+        if (Input.GetButton("Jump"))
+        {
+            transform.parent = null;
+        }
     }
 }
