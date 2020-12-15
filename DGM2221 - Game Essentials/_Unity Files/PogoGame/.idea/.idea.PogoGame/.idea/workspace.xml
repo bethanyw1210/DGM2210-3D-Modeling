@@ -20,20 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FloatData/PlayerHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/PlayerHealth.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BirdCage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BirdCage.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Feather.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Feather.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/QueenHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/EnemyFloatData/QueenHealth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/IntData/BirdCount.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/IntData/BirdCount.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,14 +105,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoomerangVelocity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttatchOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPickupRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LavaDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LavaDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" />
       </list>
     </option>
   </component>
@@ -207,7 +199,7 @@
       <workItem from="1608061619956" duration="88000" />
       <workItem from="1608064097649" duration="50000" />
       <workItem from="1608065069615" duration="3576000" />
-      <workItem from="1608070389050" duration="2096000" />
+      <workItem from="1608070389050" duration="4974000" />
     </task>
     <servers />
   </component>
