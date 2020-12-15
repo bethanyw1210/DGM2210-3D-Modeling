@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2eb5b6-1a57-4804-a0ea-1233351c067a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttatchOnTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttatchOnTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PogoGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FloatData/PlayerHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FloatData/PlayerHealth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BabyBird.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BirdCage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BirdCage.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FireSoldierAnt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SoldierAnt.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Feather.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Feather.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthPickupRespawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnMouseDown.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationBool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
@@ -80,7 +92,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BirdCountManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BirdCountTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
@@ -91,8 +102,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIImageBahaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeakenFlight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthPickupRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceFireball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringData.cs" />
@@ -105,8 +114,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BoomerangVelocity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnDeathSetActive.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttatchOnTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthPickupRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BabyBirdManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LavaDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FeatherPickup.cs" />
       </list>
     </option>
   </component>
@@ -191,6 +205,9 @@
       <workItem from="1607906796070" duration="3839000" />
       <workItem from="1608060747076" duration="570000" />
       <workItem from="1608061619956" duration="88000" />
+      <workItem from="1608064097649" duration="50000" />
+      <workItem from="1608065069615" duration="3576000" />
+      <workItem from="1608070389050" duration="2096000" />
     </task>
     <servers />
   </component>

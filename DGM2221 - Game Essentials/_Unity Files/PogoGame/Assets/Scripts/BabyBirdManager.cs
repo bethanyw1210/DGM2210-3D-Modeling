@@ -15,7 +15,7 @@ public class BabyBirdManager : MonoBehaviour
     {
         if (playerHealth.value <= 0 && (birdCount.value == birdNumber))
         {
-            Destroy(babyBird);
+            babyBird.SetActive(false);
         }
     }
 }
