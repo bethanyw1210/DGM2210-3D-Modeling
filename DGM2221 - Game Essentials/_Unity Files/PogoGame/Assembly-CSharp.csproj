@@ -78,6 +78,7 @@
      <Compile Include="Assets\Scripts\TextBehavious.cs" />
      <Compile Include="Assets\Scripts\Debugger.cs" />
      <Compile Include="Assets\Scripts\UIImageBahaviour.cs" />
+     <Compile Include="Assets\Scripts\OnDeathSetActive.cs" />
      <Compile Include="Assets\Scripts\RandomSpawnLocation.cs" />
      <Compile Include="Assets\Scripts\GameActionHandler.cs" />
      <Compile Include="Assets\Scripts\DestroyGameObject.cs" />
@@ -90,7 +91,6 @@
      <Compile Include="Assets\Scripts\ChangeWeapon.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Vector3Data.cs" />
-     <Compile Include="Assets\Scripts\OnDeathSetActive.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/betha/OneDrive/Desktop/UVU - Fall 2020/DGM2221 - Game Essentials/_Unity Files/PogoGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
